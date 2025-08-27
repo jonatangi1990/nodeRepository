@@ -4,13 +4,17 @@ const { getAge, getUUID } = require('./plugins');
 //const {getUserById} = require('./js-foundation/03-callbacks');
 //const { getUserById } = require ('./js-foundation/04-arrow');
 //const { buildMakePerson } = require('./js-foundation/05-factory');
+//const getPokemonById = require('./js-foundation/06-promises');
+const { buildLogger } = require('./plugins');
 
-const getPokemonById = require('./js-foundation/06-promises');
+const logger = buildLogger('app.js');
 
-getPokemonById(4)
-    .then( (pokemon) => console.log({ pokemon }) )
-    .catch( ( err ) => console.log( err ) )
-    .finally( () => console.log('Finalmente') );
+logger.log('Hola mundo');
+
+//getPokemonById(4)
+//    .then( (pokemon) => console.log({ pokemon }) )
+//    .catch( ( err ) => console.log( err ) )
+//    .finally( () => console.log('Finalmente') );
 
 
 
