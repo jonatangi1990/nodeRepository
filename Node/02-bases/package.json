@@ -1,0 +1,21 @@
+{
+  "name": "02-bases",
+  "version": "1.0.0",
+  "description": "Esta es mi primera aplicacion real de Node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "start:dev": "echo 'Hola mundo desde dev' "
+  },
+  "author": "Jonatan Gutierrez",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "get-age": "^1.0.1",
+    "uuid": "^11.1.0"
+  }
+}
