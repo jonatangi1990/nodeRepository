@@ -20,6 +20,6 @@ const heroes = [
 const findHeroById = (id) => {
     return heroes.find((hero) => hero.id === id);
 };
-const hero = findHeroById(4);
-console.log(hero?.name ?? 'Hero not found!!');
+const hero = findHeroById(1);
+console.log(hero?.name ?? 'Hero not found');
 //# sourceMappingURL=app.js.map
