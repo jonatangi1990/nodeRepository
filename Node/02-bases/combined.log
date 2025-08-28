@@ -4,6 +4,7 @@
 {"level":"info","message":"Hola mundo","service":"app.js"}
 {"level":"info","message":"Hola mundo","service":"app.js"}
 {"level":"info","message":"Hola mundo","service":"app.js"}
+<<<<<<< Updated upstream
 {"level":"error","message":"error Esto es algo malo","service":"app.js"}
 {"level":"info","message":"Hola mundo","service":"app.js"}
 {"at":"2025-08-28T08:03:58.064Z","level":"error","message":"error Esto es algo malo","service":"app.js"}
@@ -13,3 +14,7 @@
 {"at":"2025-08-28T08:06:08.073Z","level":"error","message":"error Esto es algo malo","service":"app.js"}
 {"level":"info","message":"Hola mundo","service":"app.js","timestamp":"2025-08-28T08:07:06.913Z"}
 {"at":"2025-08-28T08:07:06.914Z","level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2025-08-28T08:07:06.915Z"}
+=======
+>>>>>>> Stashed changes
+{"level":"info","message":"Hola mundo","service":"app.js","timestamp":"2025-08-28T08:31:40.645Z"}
+{"at":"2025-08-28T08:31:40.647Z","level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2025-08-28T08:31:40.647Z"}
