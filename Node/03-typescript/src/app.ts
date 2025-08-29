@@ -1,9 +1,8 @@
-import { findHeroById } from "./services/hero.service.js";
+import { findHeroById } from './services/hero.service';
 
 
 
+const hero = findHeroById( 2 );
 
 
-const hero = findHeroById( 1 ); 
-
-console.log(hero?.name ?? 'Hero not found' );
+console.log( hero?.name ?? 'No hero found'  ); // hero = undefined.name
