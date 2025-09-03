@@ -15,3 +15,5 @@
 {"at":"2025-08-28T08:07:06.914Z","level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2025-08-28T08:07:06.915Z"}
 {"level":"info","message":"Hola mundo","service":"app.js","timestamp":"2025-08-28T08:31:40.645Z"}
 {"at":"2025-08-28T08:31:40.647Z","level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2025-08-28T08:31:40.647Z"}
+{"level":"info","message":"Hola mundo","service":"app.js","timestamp":"2025-09-02T09:17:39.941Z"}
+{"level":"error","message":"error Esto es algo malo","service":"app.js","timestamp":"2025-09-02T09:17:39.942Z"}
